@@ -1,0 +1,182 @@
+.mt-0 {
+    margin-top: 0 !important;
+}
+
+.mt-10 {
+    margin-top: 10px !important;
+}
+
+.mt--10 {
+    margin-top: -10px !important;
+}
+
+.mt--20 {
+    margin-top: -20px !important;
+}
+
+.font-s {
+    font-size: 18px;
+}
+
+.txt-center {
+    text-align: center !important;
+}
+
+p {
+    color: #000000 !important;
+}
+
+.lead {
+    text-align: left;
+}
+h2, h3, h4, h5, h6 {
+    font-weight: 700 !important;
+}
+h3 {
+    line-height: 1 !important;
+    font-weight: bold;
+    font-size: 3rem !important;
+}
+#footer.stripe.dark {
+    padding: 20px 0 0;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+
+.span-12.span-large-4 img {
+    width: 80%;
+    height: auto;
+}
+
+span.black {
+    color: #000000 !important;
+    font-weight: bold;
+    font-size: 2rem !important;
+}
+#footer .contain > p {
+    color: #fff !important;
+}
+
+.black {
+    font-size: 34px;
+    font-weight: bold;
+}
+
+span.red {
+    color: #B5003C !important;
+    font-weight: bold;
+    font-size: 3rem !important;
+}
+.inner span.red {
+    font-size: 2rem !important;
+}
+
+nav.absolute {
+    padding-top: 22px !important;
+}
+
+nav ul.navigation > li > a {
+    color: #000000 !important;
+}
+
+.webplate a.navigation-trigger {
+    color: #000000 !important;
+}
+
+.webplate header.stripe .bg-image {
+    background-image: none !important;
+    /*background-image: url("../../project/img/parts/background.png") !important;*/
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+}
+
+.webplate a.navigation-trigger {
+    left: 12px !important;
+    top: 6px !important;
+}
+
+.span-12.span-large-8 ul {
+    margin-left: 1em;
+}
+
+.atomic-example div,
+.class-example div {
+    background: none !important;
+    border: none !important;
+    text-align: left;
+}
+
+.atomic-example,
+.class-example {
+    border: none !important;
+}
+
+h1 img {
+    width: 70%;
+    height: auto;
+}
+
+
+/*canvas {
+    display: block;
+    vertical-align: bottom;
+}
+
+#particles-js {
+    height: 100%;
+    background: #b61924
+}*/
+
+@media only screen and (min-width: 480px) {
+    h3 {
+        line-height: 1 !important;
+        font-size: 4rem  !important;
+    }
+    .lead {
+        text-align: center;
+    }
+    span.black {
+        color: #000000 !important;
+        font-weight: bold;
+        font-size: 3rem !important;
+    }
+.inner span.red {
+    font-size: 3rem !important;
+}
+}
+
+
+.stripe.head {
+    padding-top: 80px;
+}
+.date-cont a {
+    color: #555;
+    text-decoration: underline;
+}
+.date-cont dt {
+    clear: both;
+}
+.date-cont >* {
+    display: block;
+    float: left;
+}
+.date-cont >dd {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 0.5rem;
+}
+@media only screen and (max-width: 700px) {
+    .date-cont >* {
+        float: none;
+    }
+
+}

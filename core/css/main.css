@@ -10,6 +10,10 @@
     margin-top: -10px !important;
 }
 
+.mt-20 {
+    margin-top: 20px !important;
+}
+
 .mt--20 {
     margin-top: -20px !important;
 }
@@ -20,6 +24,9 @@
 
 .txt-center {
     text-align: center !important;
+}
+.txt-right {
+    text-align: right;
 }
 
 p {
@@ -158,9 +165,19 @@ h1 img {
 .stripe.head {
     padding-top: 80px;
 }
-.date-cont a {
+.contain a {
     color: #555;
     text-decoration: underline;
+}
+span.red.single {
+    /*color: #b5003c !important;*/
+    font-size: 2rem !important;
+    /*font-weight: bold;*/
+}
+.date-cont::after {
+    clear: both;
+    display: table;
+    content: "";
 }
 .date-cont dt {
     clear: both;
